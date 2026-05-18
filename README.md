@@ -105,6 +105,16 @@ Library/Artifacts/       Artifact sources, caches, and collected outputs
 
 Use **Settings -> Locations** in the app to reveal the main folders in Finder.
 
+## Screenshots
+
+<p align="center">
+  <img src="README-assets/boa-image-library.png" alt="Box of Apples">
+  <img src="README-assets/boa-vm-overview.png" alt="Box of Apples">
+  <img src="README-assets/boa-vm-overview1.png" alt="Box of Apples">
+  <img src="README-assets/boa-runbooks.png" alt="Box of Apples">
+  <img src="README-assets/boa-runbook-example.png" alt="Box of Apples">
+</p>
+
 ## Troubleshooting
 
 - **No create-ready image:** download the latest supported IPSW or import a compatible local IPSW first.
