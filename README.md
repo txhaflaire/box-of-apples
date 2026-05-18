@@ -11,7 +11,6 @@
 <p align="center">
   <a href="#install"><img alt="Download package" src="https://img.shields.io/badge/download-latest%20pkg-0A84FF?style=for-the-badge"></a>
   <a href="#requirements"><img alt="Platform" src="https://img.shields.io/badge/platform-macOS%20Apple%20silicon-111111?style=for-the-badge"></a>
-  <a href="#source-code"><img alt="Package only" src="https://img.shields.io/badge/repo-package%20only-34C759?style=for-the-badge"></a>
 </p>
 
 Box of Apples is a focused desktop workspace for repeatable macOS VM labs. It keeps restore images, VM bundles, disposable runs, guest-agent automation, and runbook history organized in one place.
