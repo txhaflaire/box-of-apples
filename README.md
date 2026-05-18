@@ -16,7 +16,7 @@
 
 Box of Apples is a focused desktop workspace for repeatable macOS VM labs. It keeps restore images, VM bundles, disposable runs, guest-agent automation, and runbook history organized in one place.
 
-This public repository is for packaged releases only. It is meant to host installable `.pkg` packages, release notes, and public-facing assets, not the application source code.
+**NOTE: Awaiting entitlement from Apple for bridged networking**
 
 ## Highlights
 
@@ -39,22 +39,8 @@ This public repository is for packaged releases only. It is meant to host instal
 
 ## Install
 
-1. Download the latest `Box of Apples-*.pkg` from this repository's Releases page.
-2. For signed release builds, verify the installer before opening it:
-
-   ```sh
-   PKG="/path/to/Box of Apples.pkg"
-   pkgutil --check-signature "$PKG"
-   spctl -a -vv -t install "$PKG"
-   ```
-
-3. Open the package in Finder, or install from Terminal:
-
-   ```sh
-   sudo installer -pkg "/path/to/Box of Apples.pkg" -target /
-   ```
-
-4. Launch **Box of Apples** from `/Applications`.
+1. Download and run the latest `Box of Apples-*.pkg` from this repository's Releases page.
+2. Launch **Box of Apples** from `/Applications`.
 
 ## First Run
 
@@ -127,7 +113,3 @@ Use **Settings -> Locations** in the app to reveal the main folders in Finder.
 - **No eligible runbook target:** start a VM with Boa Guest Agent enabled and confirm the guest agent is connected.
 - **CLI command not found:** run the CLI from the app bundle path or create the `/usr/local/bin/boa` symlink shown above.
 - **Disk pressure:** inspect the image library, persistent bundles, and disposable runs from Settings.
-
-## Source Code
-
-The source code for Box of Apples is intentionally not published in this repository. This repo is a distribution channel for installable packages, release notes, and public assets.
