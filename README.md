@@ -15,8 +15,6 @@
 
 Box of Apples is a focused desktop workspace for repeatable macOS VM labs. It keeps restore images, VM bundles, disposable runs, guest-agent automation, and runbook history organized in one place.
 
-**NOTE: Awaiting entitlement from Apple for bridged networking**
-
 ## Highlights
 
 | Area | What you can do |
