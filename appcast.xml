@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Box of Apples Updates</title>
+        <link>https://boa.decompiler.dev</link>
+        <description>Updates for Box of Apples on Apple silicon.</description>
+        <language>en</language>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: 81CRP5cmp+wwrYfKjkHmgTz+RNpAoEjrmSayLlP0+qRueYHBSr8agz5UypFgaBsSsDQ0ujDkmqjENSgS7WtyCg==
+length: 618
+-->
