@@ -9,6 +9,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Updates for Box of Apples on Apple silicon.</description>
         <language>en</language>
         <item>
+            <title>1.3.1</title>
+            <pubDate>Thu, 17 Sep 2026 19:48:35 +0200</pubDate>
+            <link>https://boa.decompiler.dev</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/txhaflaire/box-of-apples/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Both the GuestAgent and ESMonitor will now have proper semantic versioning
+- If there's a newer GuestAgent or ESMonitor, this will be shown in the UI
+- Improvements on the ESMonitor up on first launch
+]]></description>
+            <enclosure url="https://github.com/txhaflaire/box-of-apples/releases/download/v1.3.1-7/Box-of-Apples-1.3.1-7.dmg" length="12462924" type="application/octet-stream" sparkle:edSignature="4aZb8YmO3y2WGLxpCpAz18Znc5lk6hRE5RFdckEHyOmPawKKK/oWdEmUaTuI7e+Tx55U2a9oEcaU+6AR3W3EBw=="/>
+        </item>
+        <item>
             <title>1.3.0</title>
             <pubDate>Thu, 17 Sep 2026 16:12:05 +0200</pubDate>
             <link>https://boa.decompiler.dev</link>
@@ -26,6 +41,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: g+uE/LyTkvUYknTWn1taj2+lAXHZnssTHWkYNl/fFvOoJTuEWmbb4dZ3PF7sILs9BySzSmjb10HgA5zpGPBWBQ==
-length: 1919
+edSignature: /7L0Nf7ea/YubIaaTwYBycEQZ1L2tKKZlZtSfBv8dxN3+Q7WOkY+foFYAkk+jO4+9hqhu9VF41NGEh854w1PDw==
+length: 3075
 -->
