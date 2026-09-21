@@ -16,6 +16,7 @@
   <a href="https://github.com/txhaflaire/box-of-apples/releases/latest"><img alt="Download latest stable package" src="https://img.shields.io/badge/download-latest%20pkg-F4AF60?style=for-the-badge"></a>
   <a href="https://boa.decompiler.dev/docs.html"><img alt="Read the documentation" src="https://img.shields.io/badge/docs-application%20%26%20CLI-252830?style=for-the-badge"></a>
   <a href="#requirements"><img alt="Requires macOS 26 or later on Apple Silicon" src="https://img.shields.io/badge/macOS-26%2B%20%7C%20Apple%20Silicon-252830?style=for-the-badge"></a>
+  <a href="#requirements"><img alt="Total Downloads" src="https://img.shields.io/github/downloads/txhaflaire/box-of-apples/total?style=for-the-badge"></a>
 </p>
 
 Box of Apples is a native macOS workspace built on Apple's Virtualization framework. Keep restore images, VM bundles, reusable templates, security captures, and automation organized in one place. Use the desktop app, the bundled `boa` CLI, or the built-in web dashboard to work with the same library.
