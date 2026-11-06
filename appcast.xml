@@ -9,6 +9,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Updates for Box of Apples on Apple silicon.</description>
         <language>en</language>
         <item>
+            <title>1.3.5</title>
+            <pubDate>Fri, 06 Nov 2026 10:54:38 +0100</pubDate>
+            <link>https://boa.decompiler.dev</link>
+            <sparkle:fullReleaseNotesLink>https://github.com/txhaflaire/box-of-apples/releases</sparkle:fullReleaseNotesLink>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>1.3.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Custom storage locations: Choose folders for the Image Library, VM Bundles, and Disposable Runs, including folders on external drives. Storage changes apply to new files; existing VMs can be moved using export/import.
+- Clearer password requirements: VM configuration now shows that provisioning passwords require at least 8 characters, including a letter and a number. Validation catches invalid passwords before startup.
+- Change restore images: Select a different compatible IPSW for future installations on stopped, unsealed persistent VMs.
+- CLI launch fix: Resolved a code-signing issue that could prevent boa from launching. Headless CLI runs support NAT networking without USB passthrough. For bridged networking or USB passthrough, launch through the app using boa vm start without --headless.
+]]></description>
+            <enclosure url="https://github.com/txhaflaire/box-of-apples/releases/download/v1.3.5-11/Box-of-Apples-1.3.5-11.dmg" length="12545525" type="application/octet-stream" sparkle:edSignature="dVjRuc3AX+wraO0XO/EKc5vZyQv1edh3VUTtDp12tGvIVodlwv+s6dUO+hrZlI+GbYfsDbc6hJdAUaVfox56BA=="/>
+        </item>
+        <item>
             <title>1.3.4</title>
             <pubDate>Wed, 28 Oct 2026 17:09:41 +0100</pubDate>
             <link>https://boa.decompiler.dev</link>
@@ -90,6 +106,6 @@ Install **GuestAgent 1.2 (build 4)** inside your VMs to receive all improvements
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: vOOks4DVqm2Rf49q2gjoa6Jbub8pY8pWVecoB8fCBhBuluCwVPwTQbofuYBI1CDQcgsRAJ3MT/VWjMTfCqmSBA==
-length: 6806
+edSignature: 3XTf49P5ZsZ7IeEzFPXviiDXQ7WJOdU+nKvJN+BfkOxnZRwLjZq1j2eE/daPXJAHfwfY3N2z6RZ0UlA/lKC6AQ==
+length: 8567
 -->
